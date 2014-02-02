@@ -1,0 +1,27 @@
+Susunan Folder
+------------------
+
+Folder "BAB 1"
+--> Isinya Bab 1.doc (save as doc 2003)
+
+Folder "BAB 2"
+--> Isinya Studi Literatur - VCS.doc
+           Studi Literatur - Testing.doc
+           Studi Literatur - Build Tool.doc
+           Studi Literatur - CI.doc
+           Bab 2.doc
+
+Folder "BAB 3"
+--> Isinya Deskripsi Database.doc	   
+           Deskripsi Struktur Aplikasi.doc
+           Deskripsi Modul
+           Deskripsi Skenario.doc
+           Bab 3.doc
+
+Folder "BAB 4"
+--> Isinya belum terpikirkan
+
+Folder "BAB 5"
+--> Bab 5.doc
+
+yang diluar --> Laporan TA.doc
