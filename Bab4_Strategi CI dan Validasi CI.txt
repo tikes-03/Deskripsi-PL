@@ -1,0 +1,52 @@
+4. 4 Strategi dan tool Continuous Integration
+
+#strategi
+Pembuatan paket aplikasi dapat diotomasi dengan tool. 
+Keseluruhan strategi dan tools yang mencakup VCS, testing dan build dapat diimplementasikan dengan praktik CI.
+Untuk menerapkan praktik CI, anggota tim membutuhkan strategi. Strategi yang akan digunakan anggota tim untuk mengimplementasikan CI
+adalah mengotomasi build dengan trigger dari perubahan repository pusat. Anggota tim dapat mengintegrasikan kode program secara rutin tanpa 
+harus mengeluarkan effort yang besar karena testing dan build telah diotomasi. 
+
+#gambar konsep CI
+
+#tool CI
+Untuk mengimplementasikan praktik CI, anggota tim membutuhkan sebuah tool CI. Salah satu tool CI yang dapat mengimplementasikan praktik tersebut 
+adalah Jenkins. Dengan Jenkins, strategi dan tools yang mencakup VCS, testing dan build dapat diintegrasikan. Selain itu, Jenkins dapat memberikan
+notifikasi kesalahan kepada anggota tim apabila build perangkat lunak gagal dilakukan. 
+
+
+#gambar praktik CI (Bob, Alice, dan Charlie)
+
+
+
+4.5 Validasi CI
+Setelah anggota tim melakukan implementasi prakti CI dalam pembangunan perangkat lunak, maka anggota tim melakukan validasi praktik CI. 
+Validasi tersebut dilakukan untuk memastikan manfaat yang diperoleh oleh anggota tim. Parameter yang digunakan untuk melakukan validasi praktik CI,
+antara lain:
+1. Pengurangan resiko pembangunan perangkat lunak
+Resiko dari pembangunan perangkat lunak yang diperoleh anggota tim, salah satunya adalah effort untuk perbaikan
+perangkat lunak. Semakin tinggi tingkat kesalahan yang ditemukan pada perangkat lunak, maka semakin tinggi pula effort yang dikeluarkan 
+untuk perbaikan.
+Dengan pengimplementasian praktik CI, pengujian akan selalu dilakukan setiap kali anggota tim mengintegrasikan kode program, sehingga kesalahan 
+perangkat lunak pada level unit dan integrasi dapat diminimalisasi. 
+
+2. Pengurangan proses manual yang berulang
+Sebelum anggota tim mengimplementasikan praktik CI, anggota tim sering melakukan aktivitas pembangunan perangkat lunak yang berulang secara manual.
+Misalnya import database, compile, testing, drop database dan packaging. Aktivitas tersebut mengakibatkan anggota tim mengeluarkan effort yang besar.
+Dengan pengimplementasian praktik CI, aktivitas manual yang berulang tersebut dapat diotomasi.
+
+3. Visibilitas proyek yang lebih baik
+Pada proses pembangunan perangkat lunak yang cepat, anggota tim dituntut untuk selalu mempersiapkan semua paket aplikasi yang telah berhasil di-build. 
+Dengan pengimplementasian praktik CI, semua paket aplikasi hasil build dapat tersimpan secara otomatis, sehingga anggota tim dapat memonitoring history dari paket aplikasi.
+History tersebut akan membantu anggota tim dalam menentukan kualitas setiap paket aplikasi yang dihasilkan.
+
+4. Peningkatan kepercayaan diri anggota tim terhadap produk perangkat lunak
+Pembangunan perangkat lunak yang dilakukan oleh anggota tim harus minim dari kesalahan. Untuk meminimalisasi kesalahan tersebut anggota tim 
+melakukan pengujian setiap kali melakukan build perangkat lunak. 
+Dengan pengimplementasian praktik CI, pengujian dapat diotomasi pada setiap pembuatan paket aplikasi, sehingga anggota tim dapat memastikan perangkat lunak yang di-build minim dari kesalahan.
+
+
+
+5. Kesimpulan
+#setelah mengimplementasikan praktik CI, bagaimana? manfaat
+#jelaskan prosedur, teknik dan toolset yang digunakan anggota tim
