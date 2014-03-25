@@ -1,0 +1,13 @@
+Untuk nama dokumen dari masing-masing anggota, cukup ditambahkan nama. Misalnya:
+BAB 2 - Studi Literatur (Fachrul)
+
+.:: Berarti dokumen tersebut ditambahkan bagian 'testing' ::.
+
+
+===============================================================
+
+
+Penting! Jangan mengubah struktur penulisan dokumen ya!
+Seperti biasa kalau mau menyimpan perubahan, tinggal save as aja ke 2003. OK!
+
+Semangat :D
